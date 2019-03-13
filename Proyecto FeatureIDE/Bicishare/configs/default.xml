@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-	<configuration>
-		<feature automatic="selected" name="BiciSharing"/>
-		<feature automatic="selected" name="Usuarios"/>
-		<feature automatic="selected" name="Crear"/>
-		<feature automatic="selected" name="Modificar"/>
-		<feature automatic="selected" name="Validar"/>
-		<feature automatic="selected" name="Prestamo"/>
-		<feature automatic="selected" name="Bicicletas"/>
-		<feature automatic="selected" name="Retirar Bicicleta"/>
-		<feature automatic="selected" name="Entregar Bicicleta"/>
-		<feature manual="selected" name="Accesorios"/>
-		<feature automatic="selected" name="Retirar Accesorio"/>
-		<feature automatic="selected" name="Entregar Accesorio"/>
-		<feature automatic="selected" name="Pago"/>
-		<feature manual="selected" name="PSE"/>
-		<feature manual="selected" name="Tarjeta_de_Credito"/>
-		<feature manual="selected" name="Gamification"/>
-		<feature automatic="selected" name="Ver Retos"/>
-		<feature automatic="selected" name="Crear Retos"/>
-		<feature automatic="selected" name="Contador"/>
-		<feature automatic="selected" name="Ver Avance"/>
-		<feature automatic="selected" name="Aprobar Retos"/>
-		<feature manual="selected" name="Bonificaciones"/>
-		<feature automatic="selected" name="Ver Catalogo"/>
-		<feature automatic="selected" name="Seleccionar Premios"/>
-		<feature automatic="selected" name="Multas"/>
-		<feature automatic="selected" name="Registrar"/>
-		<feature automatic="selected" name="Consultar"/>
-		<feature automatic="selected" name="Ajustar"/>
-		<feature automatic="selected" name="Inventario"/>
-		<feature automatic="selected" name="Registar Ingreso"/>
-		<feature automatic="selected" name="Registrar Salida"/>
-		<feature automatic="selected" name="Actualizar Inventario"/>
-		<feature automatic="selected" name="Crear Item"/>
-		<feature automatic="selected" name="Eliminar Item"/>
-		<feature automatic="selected" name="Modificar Estado Item"/>
-		<feature automatic="selected" name="Interfaz"/>
-		<feature automatic="selected" name="Web"/>
-	</configuration>
+<configuration>
+    <feature automatic="selected" name="BiciSharing"/>
+    <feature automatic="selected" name="Usuarios"/>
+    <feature automatic="selected" name="Crear"/>
+    <feature automatic="selected" name="Modificar"/>
+    <feature automatic="selected" name="Validar"/>
+    <feature automatic="selected" name="Prestamo"/>
+    <feature automatic="selected" name="Bicicletas"/>
+    <feature automatic="selected" name="Retirar_Bicicleta"/>
+    <feature automatic="selected" name="Entregar_Bicicleta"/>
+    <feature manual="selected" name="Accesorios"/>
+    <feature automatic="selected" name="Retirar_Accesorio"/>
+    <feature automatic="selected" name="Entregar_Accesorio"/>
+    <feature automatic="selected" manual="selected" name="Pago"/>
+    <feature automatic="selected" name="Tarjeta_de_Credito"/>
+    <feature manual="selected" name="Gamification"/>
+    <feature automatic="selected" name="Ver_Retos"/>
+    <feature automatic="selected" name="Crear_Retos"/>
+    <feature automatic="selected" name="Contador"/>
+    <feature automatic="selected" name="Ver_Avance"/>
+    <feature automatic="selected" name="Aprobar_Retos"/>
+    <feature manual="selected" name="Bonificaciones"/>
+    <feature automatic="selected" name="Ver_Catalogo"/>
+    <feature automatic="selected" name="Seleccionar_Premios"/>
+    <feature automatic="selected" name="Multas"/>
+    <feature automatic="selected" name="Registrar"/>
+    <feature automatic="selected" name="Consultar"/>
+    <feature automatic="selected" name="Ajustar"/>
+    <feature automatic="selected" name="Inventario"/>
+    <feature automatic="selected" name="Registar_Ingreso"/>
+    <feature automatic="selected" name="Registrar_Salida"/>
+    <feature automatic="selected" name="Actualizar_Inventario"/>
+    <feature automatic="selected" name="Crear_Item"/>
+    <feature automatic="selected" name="Eliminar_Item"/>
+    <feature automatic="selected" name="Modificar_Estado_Item"/>
+    <feature automatic="selected" name="Interfaz"/>
+    <feature automatic="selected" name="Web"/>
+</configuration>

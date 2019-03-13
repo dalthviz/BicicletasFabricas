@@ -10,28 +10,28 @@
 				</and>
 				<and mandatory="true" name="Prestamo">
 					<and mandatory="true" name="Bicicletas">
-						<feature mandatory="true" name="Retirar Bicicleta"/>
-						<feature mandatory="true" name="Entregar Bicicleta"/>
+						<feature mandatory="true" name="Retirar_Bicicleta"/>
+						<feature mandatory="true" name="Entregar_Bicicleta"/>
 					</and>
 					<and name="Accesorios">
-						<feature mandatory="true" name="Retirar Accesorio"/>
-						<feature mandatory="true" name="Entregar Accesorio"/>
+						<feature mandatory="true" name="Retirar_Accesorio"/>
+						<feature mandatory="true" name="Entregar_Accesorio"/>
 					</and>
 				</and>
-				<or name="Pago">
+				<and name="Pago">
 					<feature name="PSE"/>
-					<feature name="Tarjeta_de_Credito"/>
-				</or>
+					<feature mandatory="true" name="Tarjeta_de_Credito"/>
+				</and>
 				<and name="Gamification">
-					<feature mandatory="true" name="Ver Retos"/>
-					<feature mandatory="true" name="Crear Retos"/>
+					<feature mandatory="true" name="Ver_Retos"/>
+					<feature mandatory="true" name="Crear_Retos"/>
 					<feature mandatory="true" name="Contador"/>
-					<feature mandatory="true" name="Ver Avance"/>
-					<feature mandatory="true" name="Aprobar Retos"/>
+					<feature mandatory="true" name="Ver_Avance"/>
+					<feature mandatory="true" name="Aprobar_Retos"/>
 				</and>
 				<and name="Bonificaciones">
-					<feature mandatory="true" name="Ver Catalogo"/>
-					<feature mandatory="true" name="Seleccionar Premios"/>
+					<feature mandatory="true" name="Ver_Catalogo"/>
+					<feature mandatory="true" name="Seleccionar_Premios"/>
 				</and>
 				<and mandatory="true" name="Multas">
 					<feature mandatory="true" name="Registrar"/>
@@ -39,21 +39,26 @@
 					<feature mandatory="true" name="Ajustar"/>
 				</and>
 				<and mandatory="true" name="Inventario">
-					<feature mandatory="true" name="Registar Ingreso"/>
-					<feature mandatory="true" name="Registrar Salida"/>
-					<feature mandatory="true" name="Actualizar Inventario"/>
-					<feature mandatory="true" name="Crear Item"/>
-					<feature mandatory="true" name="Eliminar Item"/>
-					<feature mandatory="true" name="Modificar Estado Item"/>
+					<feature mandatory="true" name="Registar_Ingreso"/>
+					<feature mandatory="true" name="Registrar_Salida"/>
+					<feature mandatory="true" name="Actualizar_Inventario"/>
+					<feature mandatory="true" name="Crear_Item"/>
+					<feature mandatory="true" name="Eliminar_Item"/>
+					<feature mandatory="true" name="Modificar_Estado_Item"/>
 				</and>
 				<and mandatory="true" name="Interfaz">
 					<feature mandatory="true" name="Web"/>
-					<feature name="Android"/>
-					<feature name="IOS"/>
 				</and>
 			</and>
 		</struct>
-		<constraints/>
+		<constraints>
+			<rule>
+				<imp>
+					<var>Accesorios</var>
+					<var>Pago</var>
+				</imp>
+			</rule>
+		</constraints>
 		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
 		<comments/>
 		<featureOrder userDefined="false"/>
