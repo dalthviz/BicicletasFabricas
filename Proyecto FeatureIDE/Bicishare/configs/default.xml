@@ -13,6 +13,7 @@
     <feature automatic="selected" name="Retirar_Accesorio"/>
     <feature automatic="selected" name="Entregar_Accesorio"/>
     <feature automatic="selected" manual="selected" name="Pago"/>
+    <feature manual="selected" name="PSE"/>
     <feature automatic="selected" name="Tarjeta_de_Credito"/>
     <feature manual="selected" name="Gamification"/>
     <feature automatic="selected" name="Ver_Retos"/>

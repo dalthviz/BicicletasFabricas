@@ -18,7 +18,7 @@
 			<tr dir-paginate="row in lista|filter: q|itemsPerPage:10">
 				<td>{{row.valor}}</td>
 				<td>{{row.fecha| date: 'dd/MM/yyyy'}}</td>
-				<td class="row">{{row.prestamo.nombre}}</td>
+				<td class="row">{{row.prestamo.id}}</td>
 				<td class="row">
 					<button type="button" class="btn btn-default"
 						ng-click="editar(row)">
@@ -58,7 +58,7 @@
 					format : 'dd/mm/yyyy',
 					language : "es"
 				}).on('changeDate', function(ev) {
-					dp_fecha.hide();
+					//dp_fecha.hide();
 				}).data('datepicker');
 			</script>
 			<div ng-show="errores.fecha">{{errores.fecha}}</div>
@@ -68,7 +68,7 @@
 				ng-class="errores.prestamo?'error':''">
 				<label>prestamo</label> <select id="prestamo" class="form-control"
 					ng-model="datosFormulario.prestamo"
-					ng-options="option.nombre for option in listaPrestamo track by option.id">
+					ng-options="option.id for option in listaPrestamo track by option.id">
 				</select>
 				<div ng-show="errores.prestamo">{{errores.prestamo}}</div>
 			</div>

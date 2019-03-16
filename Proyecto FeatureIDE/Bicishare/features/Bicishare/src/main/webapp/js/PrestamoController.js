@@ -72,6 +72,7 @@ module.controller('PrestamoCtrl', ['$scope', '$filter', '$http', function ($scop
     $scope.guardar = function () {
         $scope.errores = {};
         var error = false;
+        $scope.datosFormulario.fechaRealDevolucion = $scope.datosFormulario.fechaFin;
         
         if (error)
             return;

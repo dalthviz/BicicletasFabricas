@@ -19,8 +19,8 @@
 			<tr dir-paginate="row in lista|filter: q|itemsPerPage:10">
 				<td>{{row.fechaInicio| date: 'dd/MM/yyyy'}}</td>
 				<td>{{row.fechaFin| date: 'dd/MM/yyyy'}}</td>
-				<td class="row">{{row.pago.nombre}}</td>
-				<td class="row">{{row.multa.nombre}}</td>
+				<td class="row">{{row.multa.id}}</td>
+				<td class="row">{{row.pago.id}}</td>
 				<td class="row">
 					<button type="button" class="btn btn-default"
 						ng-click="editar(row)">

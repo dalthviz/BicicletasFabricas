@@ -34,6 +34,18 @@
 					<key>LaunchConfigHandle</key>
 					<value>&lt;project&gt;/.externalToolBuilders/org.eclipse.jdt.core.javabuilder.launch</value>
 				</dictionary>
+				<dictionary>
+					<key>build</key>
+					<value>src</value>
+				</dictionary>
+				<dictionary>
+					<key>equations</key>
+					<value>configs</value>
+				</dictionary>
+				<dictionary>
+					<key>source</key>
+					<value>features</value>
+				</dictionary>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
@@ -43,6 +55,18 @@
 				<dictionary>
 					<key>LaunchConfigHandle</key>
 					<value>&lt;project&gt;/.externalToolBuilders/org.eclipse.wst.validation.validationbuilder.launch</value>
+				</dictionary>
+				<dictionary>
+					<key>build</key>
+					<value>src</value>
+				</dictionary>
+				<dictionary>
+					<key>equations</key>
+					<value>configs</value>
+				</dictionary>
+				<dictionary>
+					<key>source</key>
+					<value>features</value>
 				</dictionary>
 			</arguments>
 		</buildCommand>

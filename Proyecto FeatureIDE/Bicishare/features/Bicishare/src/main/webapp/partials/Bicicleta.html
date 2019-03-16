@@ -5,7 +5,7 @@
         <div class="rowItem item item--grid item--has-row-logo new" id="{{row.serial}}">
           <div class="item__image item__image--grid"> 
             <div class="images-viewer" item-url="/src/Prestamo/{{row.serial}}" item-id="{{row.serial}}">
-              <img ng-show="row.foto" alt="{{row.serial}}" src="{{row.foto}}" class="lazy-load">
+              <img ng-show="row.foto" alt="{{row.serial}}" ng-src="{{row.foto}}" class="lazy-load">
               <img ng-show="!row.foto" alt="{{row.serial}}" src="https://escuelaenlanube.files.wordpress.com/2012/09/bicicleta.jpg" class="lazy-load">
             </div>
           </div> 
